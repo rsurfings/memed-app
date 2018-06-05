@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DR.Memed</title>
+
+<link rel="stylesheet"
+	href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet"
+	href="css/material.indigo-deep_purple.min.css" />
+<script defer src="js/material.min.js"></script>
+
+</head>
+
+<body onload="medicines()">
+
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+		<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row">
+				<span class="mdl-layout-title" id="memed-title"></span>
+			</div>
+		</header>
+
+		<div class="mdl-layout__content">
+			<ul class="demo-list-icon mdl-list" id="list">
+			</ul>
+		</div>
+		
+		<a id="pharmacy" class="mdl-button mdl-js-button mdl-js-ripple-effect"> Encontrar Farmácias <i class="material-icons">arrow_forward</i> </a>
+		<a style="display:none;" id="checkout" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--raised mdl-button--colored"> Checkout</a>
+		
+	</div>
+   
+	
+	<script src="js/app.js"></script>
+
+</body>
+</html>
